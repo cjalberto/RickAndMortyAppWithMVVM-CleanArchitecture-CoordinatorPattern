@@ -1,4 +1,4 @@
-RickAndMortyApp-iOS
+# RickAndMortyApp-iOS
 Project Description
 
 Welcome to the repository of the "Rick and Morty" iOS app! Our goal is to provide fans with an immersive experience, exploring detailed information about characters, episodes, and locations from the animated series "Rick and Morty." The app utilizes the public API of "The Rick and Morty" to fetch updated and relevant data.
