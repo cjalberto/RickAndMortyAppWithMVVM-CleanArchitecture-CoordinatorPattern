@@ -12,8 +12,6 @@
 		4507C5252B49DAA90002F966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4507C5242B49DAA90002F966 /* Assets.xcassets */; };
 		4507C5282B49DAA90002F966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4507C5272B49DAA90002F966 /* Preview Assets.xcassets */; };
 		4507C5322B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4507C5312B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternTests.swift */; };
-		4507C53C2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4507C53B2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift */; };
-		4507C53E2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4507C53D2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +40,6 @@
 		4507C52D2B49DAA90002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4507C5312B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternTests.swift; sourceTree = "<group>"; };
 		4507C5372B49DAA90002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4507C53B2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift; sourceTree = "<group>"; };
-		4507C53D2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +72,6 @@
 			children = (
 				4507C51F2B49DAA70002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPattern */,
 				4507C5302B49DAA90002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternTests */,
-				4507C53A2B49DAA90002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternUITests */,
 				4507C51E2B49DAA70002F966 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,15 +111,6 @@
 				4507C5312B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternTests.swift */,
 			);
 			path = "RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternTests";
-			sourceTree = "<group>";
-		};
-		4507C53A2B49DAA90002F966 /* RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4507C53B2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift */,
-				4507C53D2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift */,
-			);
-			path = "RickAndMortyAppWithMVVM+CleanArchitecture+CoordinatorPatternUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4507C53E2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITestsLaunchTests.swift in Sources */,
-				4507C53C2B49DAA90002F966 /* RickAndMortyAppWithMVVM_CleanArchitecture_CoordinatorPatternUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
